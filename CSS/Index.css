@@ -1,0 +1,269 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+    padding-bottom: 150px;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* =================================
+Seccion Responsiva
+====================================*/
+
+[class*=¨col-¨]{
+    float: left;
+    padding: 20px;
+    border: 1px solid black
+}
+
+.fila{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    clear: both;
+    display: table;
+}
+
+/* =================================
+Estilo de pagina Web
+====================================*/
+header {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    background: black;
+}
+
+#logo{
+    position: relative;
+    left: 30px;
+    height: auto;
+    font-size: 35px;
+    color: aliceblue;
+    margin: 0px;
+}
+
+@media (max-width: 768px) {
+    #caja1,
+    #caja2,
+    #caja3 {
+        position: relative;
+        top: 0;
+        right: 0;
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+
+.cajas {
+    position: absolute;
+    top: 10;
+    right: 10;
+    height: auto;
+    background: black;
+    color: beige;
+    text-align: center;
+}
+
+#caja1 {
+    top: 15px;
+    right: 320px;
+}
+
+#caja2 {
+    top: 15px;
+    right: 120px;
+}
+
+#caja3 {
+    top: 15px;
+    right: 20px;
+}
+
+.pronombre {
+    top: 40px;
+}
+
+#nombre{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+}
+
+#apellido{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+}
+
+#perfil{
+    position: relative;
+    text-align: center;
+    color: lightgreen;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+
+.redes{
+    position: absolute;   
+}
+
+#boton1{
+   top: 70px;
+    right: 30px;
+}
+
+#boton2{
+    top: 120px;
+    right: 30px;
+}
+
+#boton3{
+    top: 170px;
+    right: 30px;  
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+#izq {
+    width: 50%;
+}
+
+#frase{
+    position: relative;
+    top: 20px;
+    color: gray;
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    text-align: center; 
+}
+
+#parrafo{
+    position: relative;
+    top: 40px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    padding: 10px;
+    
+}
+
+#der {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+#estudiante {
+    color: #0E9586;
+    font-size: 22px;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#foto {
+    font-size: 15px;
+    font-family: monospace;
+}
+
+#per {
+    width: 150px; 
+    height: auto; 
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    min-height: 150px; 
+    background: #222222;
+    z-index: 0;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    align-items: center;
+}
+
+#footer-content {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    text-align: center; 
+}
+
+.footer-item {
+    text-align: center;
+    margin: 10px;
+    flex: 1; 
+}
+
+.check {
+    border-radius: 100%;
+    margin: 10px;
+    max-width: 100%;
+    height: auto; 
+}
+
+#c1 {
+    position: relative; 
+    top: 40px;
+}
+
+#c2 {
+    position: relative; 
+    top: 40px;
+}
+
+#c3 {
+    position: relative; 
+    top: 40px;
+}
+
+#bachillerato,
+#tecnico,
+#superior {
+    width: 350px;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    margin: 10px;
+    display: inline-block;
+    position: relative; 
+}
+
+#colegio,
+#sena,
+#u {
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    position: relative; 
+}
+.foo {
+    color: white;
+    font-size: 18px;
+    margin-top: 5px; 
+}

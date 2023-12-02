@@ -1,0 +1,337 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+    padding-bottom: 150px;
+}
+
+/* =================================
+Seccion Responsiva
+====================================*/
+
+[class*=¨col-¨]{
+    float: left;
+    padding: 20px;
+    border: 1px solid black
+}
+
+.fila{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    clear: both;
+    display: table;
+}
+
+/* =================================
+Largo lg
+====================================*/
+
+@media(min-width:1200px){
+.col-lg-12{width: 100%;}
+.col-lg-11{width: 91,66666667%;}
+.col-lg-10{width: 83,33333333%;}
+.col-lg-9{width: 75%;}
+.col-lg-8{width: 66,6666666%;}
+.col-lg-7{width: 58,33333333;}
+.col-lg-6{width: 50%;}
+.col-lg-5{width: 41,666666%;}
+.col-lg-4{width: 33.33333333%;}
+.col-lg-3{width: 25%;}
+.col-lg-2{width: 16,66666667%;}
+.col-lg-1{width: 8,33333333%;}
+}
+
+/* =================================
+Mediano md
+====================================*/
+
+@media(max-width:1199px) and (min-width:992px){
+    .col-md-12{width: 100%;}
+    .col-md-11{width: 91,66666667%;}
+    .col-md-10{width: 83,33333333%;}
+    .col-md-9{width: 75%;}
+    .col-md-8{width: 66,6666666%;}
+    .col-md-7{width: 58,33333333;}
+    .col-md-6{width: 50%;}
+    .col-md-5{width: 41,666666%;}
+    .col-md-4{width: 33.33333333%;}
+    .col-md-3{width: 25%;}
+    .col-md-2{width: 16,66666667%;}
+    .col-md-1{width: 8,33333333%;}
+    }
+
+/* =================================
+Pequeño sm
+====================================*/
+
+@media(max-width:991px) and (min-width:768px){
+    .col-sm-12{width: 100%;}
+    .col-sm-11{width: 91,66666667%;}
+    .col-sm-10{width: 83,33333333%;}
+    .col-sm-9{width: 75%;}
+    .col-sm-8{width: 66,6666666%;}
+    .col-sm-7{width: 58,33333333;}
+    .col-sm-6{width: 50%;}
+    .col-sm-5{width: 41,666666%;}
+    .col-sm-4{width: 33.33333333%;}
+    .col-sm-3{width: 25%;}
+    .col-sm-2{width: 16,66666667%;}
+    .col-sm-1{width: 8,33333333%;}
+    }
+
+/* =================================
+Extra Pequeño xs
+====================================*/
+
+@media(max-width:767px){
+    .col-xs-12{width: 100%;}
+    .col-xs-11{width: 91,66666667%;}
+    .col-xs-10{width: 83,33333333%;}
+    .col-xs-9{width: 75%;}
+    .col-xs-8{width: 66,6666666%;}
+    .col-xs-7{width: 58,33333333;}
+    .col-xs-6{width: 50%;}
+    .col-xs-5{width: 41,666666%;}
+    .col-xs-4{width: 33.33333333%;}
+    .col-xs-3{width: 25%;}
+    .col-xs-2{width: 16,66666667%;}
+    .col-xs-1{width: 8,33333333%;}
+    }
+
+    @media screen and (max-width: 767px) {
+        footer {
+            height: auto; 
+        }
+    }
+
+/* =================================
+Estilo de pagina Web
+====================================*/
+header {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    background: black;
+}
+
+#logo{
+    position: relative;
+    left: 30px;
+    height: auto;
+    font-size: 35px;
+    color: aliceblue;
+    margin: 5px;
+}
+
+.cajas {
+    position: absolute;
+    top: 10;
+    right: 10;
+    height: auto;
+    background: black;
+    color: beige;
+    text-align: center;
+}
+
+#caja1 {
+    top: 15px;
+    right: 320px;
+}
+
+#caja2 {
+    top: 15px;
+    right: 120px;
+}
+
+#caja3 {
+    top: 15px;
+    right: 20px;
+}
+
+.pronombre {
+    top: 40px;
+}
+
+#nombre{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+}
+
+#apellido{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+}
+
+#perfil{
+    position: relative;
+    text-align: center;
+    color: lightgreen;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+
+.redes{
+    position: absolute;   
+}
+
+#boton1{
+   top: 70px;
+    right: 30px;
+}
+
+#boton2{
+    top: 120px;
+    right: 30px;
+}
+
+#boton3{
+    top: 170px;
+    right: 30px;  
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+#izq {
+    width: 50%;
+}
+
+#frase{
+    position: relative;
+    top: 20px;
+    color: gray;
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    text-align: center; 
+}
+
+#parrafo{
+    position: relative;
+    top: 40px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    padding: 10px;
+    
+}
+
+#der {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+#estudiante {
+    color: #0E9586;
+    font-size: 22px;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#foto {
+    font-size: 15px;
+    font-family: monospace;
+}
+
+#per {
+    width: 150px; 
+    height: auto; 
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    min-height: 150px; 
+    background: #222222;
+    z-index: 0;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    align-items: center;
+}
+
+#footer-content {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    text-align: center; 
+}
+
+.footer-item {
+    text-align: center;
+    margin: 10px;
+    flex: 1; 
+}
+
+.check {
+    border-radius: 100%;
+    margin: 10px;
+    max-width: 100%;
+    height: auto; 
+}
+
+#c1 {
+    position: relative; 
+    top: 40px;
+}
+
+#c2 {
+    position: relative; 
+    top: 40px;
+}
+
+#c3 {
+    position: relative; 
+    top: 40px;
+}
+
+#bachillerato,
+#tecnico,
+#superior {
+    width: 350px;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    margin: 10px;
+    display: inline-block;
+    position: relative; 
+}
+
+#colegio,
+#sena,
+#u {
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    position: relative; 
+}
+.foo {
+    color: white;
+    font-size: 18px;
+    margin-top: 5px; 
+}
